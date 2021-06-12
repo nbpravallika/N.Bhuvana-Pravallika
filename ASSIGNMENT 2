@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>adjacent sibiling</title>
+<style>
+div  + p{
+color:purple;
+}
+</style>
+</head>
+<body>
+<h1>adjacent sibiling example</h1>
+<div>
+<p>this is para1</p>
+<p>this is para2</p>
+</div>
+<p>this is a para</p>
+<p>this is para4</p>
+<div>
+<p>this is para5</p>
+<p>this is para6</p>
+</div>
+<p> this is para7</p>
+<p>this is para8</p>
+</body>
+</html>

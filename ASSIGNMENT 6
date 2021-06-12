@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>class demo</title>
+<style>
+.abc {
+color:red;
+}
+.wxy {
+color:blue;
+}
+.pqr {
+color:green;
+}
+</style>
+</head>
+<body>
+<h1>Class Demo Using CSS Style</h1>
+<p class="abc">this is my first paragraph.Iam new to html.I will try to learn as fast as possible in given days.</p>
+<p class="wxy">this is my second paragraph.I learn something from web development bootcamp.I feel good.</p>
+<p class="pqr">this is my third paragraph.I feel good ,when iam learning html.I feel it like a colorful world, imagination in creating web pages.I like it.</p>
+</body>
+</html>

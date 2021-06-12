@@ -1,16 +1,22 @@
-<?php 
-$emailid=$_post['emailid'];
-$conn=new mysqli('localhost','root','',test1);
-if($conn->connect_error)
-{
-	die('connection failed :'.$conn->connect_error);
-}else
-{
-	$stmt=$conn->prepare("insert into registration(email)
-		values(?)");
-	$stmt->bind_param("s",$email);
-	$stmt->execute();
-	echo "registration successfully...";
-	$stmt->close();
-	$conn->close();
+<!DOCTYPE html>
+<html>
+<head>
+   <title>pseudo class</title>
+<style>
+div {
+color:red;
+text-align:center;
+font-size:200%;
 }
+div:hover
+{
+background-color:purple;
+}
+</style>
+</head>
+<body>
+<h1>pseudo class using div tag</h1>
+<p>hello guys.This is Pravallika.</p>
+<div>mouse over me</div>
+</body>
+</html>

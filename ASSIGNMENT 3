@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>child selector</title>
+<style>
+div  > p{
+color:purple;
+}
+</style>
+</head>
+<body>
+<h1>child selector example</h1>
+<div>
+<p>this is para1</p>
+<p>this is para2</p>
+<section> this is para3</section>
+<p>this is para4</p>
+</div>
+<p>this is para5</p>
+<p>this is para6</p>
+</body>
+</html>

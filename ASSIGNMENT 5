@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>colors </title>
+   <title>class demo</title>
 <style>
-a:link {
+#abc {
+color:red;
+text-align:left;
+}
+#wxy {
+color:blue;
+text-align:center;
+}
+#pqr {
 color:green;
-background-color:transparent;
-text-decoration:none;
-}
-a:visited {
-color:pink;
-background-color:transparent;
-text-decoration: underline;
-}
-a:active {
-color:yellow;
-background-color:transparent;
-text-decoration: underline;
+text-align:right;
 }
 </style>
 </head>
 <body>
-   <h>link colors</h1>
-   <p> color changes defautly </p>
-<a href="kits guntur.ac.in" target="_blank">kits guntur</a>
+<h1>D DEMO</h1>
+<p id="abc">this is my first paragraph.Iam new to html.I will try to learn as fast as possible in given days.</p>
+<p id="wxy">this is my second paragraph.I learn something from web development bootcamp.I feel good.</p>
+<p id="pqr">this is my third paragraph.I feel good ,when iam learning html.I feel it like a colorful world, imagination in creating web pages.I like it.</p>
 </body>
 </html>

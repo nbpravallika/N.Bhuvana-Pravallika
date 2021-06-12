@@ -1,14 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>descendent tag</title>
+<style>
+div p{
+color:purple;
+}
+</style>
+</head>
+<body>
+<h1> descendent tag example</h1>
+<div>
+<p>this is para1</p>
+<p>this is para2</p>
+</div>
+<p>this is para3</p>
 
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<title>audio file</title>
-	</head>
-	<body>
-	      <audio controls>
-	      	<source src="resources/song.mp3" type="audio/mp3"/>
-
-	      	</audio>
-	</body>
-	</html>
+</body>
+</html>
