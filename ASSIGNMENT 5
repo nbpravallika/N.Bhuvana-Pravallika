@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>colors </title>
+<style>
+a:link {
+color:green;
+background-color:transparent;
+text-decoration:none;
+}
+a:visited {
+color:pink;
+background-color:transparent;
+text-decoration: underline;
+}
+a:active {
+color:yellow;
+background-color:transparent;
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+   <h>link colors</h1>
+   <p> color changes defautly </p>
+<a href="kits guntur.ac.in" target="_blank">kits guntur</a>
+</body>
+</html>
